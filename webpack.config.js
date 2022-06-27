@@ -37,6 +37,22 @@ module.exports = {
         // style-loader 在把css代码插入到 dom中
         use: ['style-loader', 'css-loader', 'less-loader'],
       },
+      {
+        test: /\.(png|jpg|gif|jpeg)$/i,
+        type: 'asset', // 在导出一个 data URI 和发送一个单独的文件之间自动选择
+        parser: {
+          // 解析器 规则
+          dataUrlCondition: {
+            // dataUrl的情况
+            maxSize: 4 * 1024,
+            // maxSize 限制最大值
+          },
+        },
+        generator: {
+          //生成器
+          filename: '[hash:6][ext]',
+        },
+      },
     ],
   },
 }
