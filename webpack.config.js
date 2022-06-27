@@ -53,21 +53,32 @@ module.exports = {
           filename: '[hash:6][ext]',
         },
       },
-      { // 处理字体图标的解析
+      {
+        // 处理字体图标的解析
         test: /\.(eot|svg|ttf|woff|woff2)$/,
-            use: [
-                {
-                    loader: 'url-loader',
-                    options: {
-                        limit: 2 * 1024,
-                        // 配置输出的文件名
-                        name: '[name].[ext]',
-                        // 配置输出的文件目录
-                        outputPath: "fonts/"
-                    }
-                }
-            ]
-    }
+        use: [
+          {
+            loader: 'url-loader',
+            options: {
+              limit: 2 * 1024,
+              // 配置输出的文件名
+              name: '[name].[ext]',
+              // 配置输出的文件目录
+              outputPath: 'fonts/',
+            },
+          },
+        ],
+      },
+      {
+        test: /\.js$/,
+        exclude: /(node_modules)/,
+        use: {
+          loader: 'babel-loader',
+          options: {
+            presets: ['@babel/preset-env'], // 预设:转码规则(用bable开发环境本来预设的)
+          },
+        },
+      },
     ],
   },
 }

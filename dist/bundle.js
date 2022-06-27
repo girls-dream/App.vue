@@ -9,6 +9,37 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./src/banner.js":
+/*!***********************!*\
+  !*** ./src/banner.js ***!
+  \***********************/
+/***/ (() => {
+
+eval("// 轮播图逻辑\nconsole.log('实现轮播图的业务逻辑');\n\n//# sourceURL=webpack://webpack/./src/banner.js?");
+
+/***/ }),
+
+/***/ "./src/index.js":
+/*!**********************!*\
+  !*** ./src/index.js ***!
+  \**********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _banner_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./banner.js */ \"./src/banner.js\");\n/* harmony import */ var _banner_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_banner_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _tab_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./tab.js */ \"./src/tab.js\");\n/* harmony import */ var _tab_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_tab_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _styles_index_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./styles/index.css */ \"./src/styles/index.css\");\n/* harmony import */ var _styles_index_less__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./styles/index.less */ \"./src/styles/index.less\");\n/* harmony import */ var _assets_1_gif__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./assets/1.gif */ \"./src/assets/1.gif\");\n/* harmony import */ var _assets_fonts_iconfont_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./assets/fonts/iconfont.css */ \"./src/assets/fonts/iconfont.css\");\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); Object.defineProperty(Constructor, \"prototype\", { writable: false }); return Constructor; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }\n\n\n // import $ from 'jquery';\n// $('#swiper').css('background-color', 'red')\n\n\n // index.js\n\n\nvar img = document.createElement('img');\nimg.src = _assets_1_gif__WEBPACK_IMPORTED_MODULE_4__;\ndocument.body.appendChild(img); // 引入字体图标文件\n\n\n\nvar App = /*#__PURE__*/_createClass(function App() {\n  _classCallCheck(this, App);\n});\n\n_defineProperty(App, \"a\", 123);\n\nconsole.log(App.a);\n\n//# sourceURL=webpack://webpack/./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/tab.js":
+/*!********************!*\
+  !*** ./src/tab.js ***!
+  \********************/
+/***/ (() => {
+
+eval("// tab栏切换的逻辑\nconsole.log('实现tabs标签页的逻辑');\n\n//# sourceURL=webpack://webpack/./src/tab.js?");
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/styles/index.less":
 /*!************************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/styles/index.less ***!
@@ -174,37 +205,6 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
 
 /***/ }),
 
-/***/ "./src/banner.js":
-/*!***********************!*\
-  !*** ./src/banner.js ***!
-  \***********************/
-/***/ (() => {
-
-eval("// 轮播图逻辑\r\nconsole.log('实现轮播图的业务逻辑')\n\n//# sourceURL=webpack://webpack/./src/banner.js?");
-
-/***/ }),
-
-/***/ "./src/index.js":
-/*!**********************!*\
-  !*** ./src/index.js ***!
-  \**********************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _banner_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./banner.js */ \"./src/banner.js\");\n/* harmony import */ var _banner_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_banner_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _tab_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./tab.js */ \"./src/tab.js\");\n/* harmony import */ var _tab_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_tab_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _styles_index_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./styles/index.css */ \"./src/styles/index.css\");\n/* harmony import */ var _styles_index_less__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./styles/index.less */ \"./src/styles/index.less\");\n/* harmony import */ var _assets_1_gif__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./assets/1.gif */ \"./src/assets/1.gif\");\n/* harmony import */ var _assets_fonts_iconfont_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./assets/fonts/iconfont.css */ \"./src/assets/fonts/iconfont.css\");\n\r\n\r\n\r\n// import $ from 'jquery';\r\n// $('#swiper').css('background-color', 'red')\r\n\r\n\r\n\r\n// index.js\r\n\r\n\r\nlet img = document.createElement('img');\r\nimg.src = _assets_1_gif__WEBPACK_IMPORTED_MODULE_4__;\r\ndocument.body.appendChild(img);\r\n\r\n// 引入字体图标文件\r\n\r\n\r\n\n\n//# sourceURL=webpack://webpack/./src/index.js?");
-
-/***/ }),
-
-/***/ "./src/tab.js":
-/*!********************!*\
-  !*** ./src/tab.js ***!
-  \********************/
-/***/ (() => {
-
-eval("// tab栏切换的逻辑\r\nconsole.log('实现tabs标签页的逻辑')\n\n//# sourceURL=webpack://webpack/./src/tab.js?");
-
-/***/ }),
-
 /***/ "data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAARIAAsAAAAACEQAAAP7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDBgqELINlATYCJAMMCwgABCAFhG0HNRsqBxEVnAnJvoScbC4Rd3BOtcW542W9hTVrUov1/2X4oxQkQAQkAAAAAEA8/Df27b6ZWdUmZs1PF00LdK8QypIgFEL25qV7MmnQ/tFa2+MOEV+SuKf39D57ZnsvDe1kQiHSCZ1K+4+4DOphOli4SGcdfuGCdXLfNbnFR0ggzDizXLLcreCttiB4SijRR4wTCZInbn47iDCptQYl92UkJ/HB5fRX4vOAcpl7YIBxQIGNMTmhtEAC1Jgbxi5oiecJ1OvVh9nVMbICBQpzWiCu+vu6g4KMRmnID7VCdcXaIu4DW226y13AveDz8QMsRgFJVWbO3SPaXmDphvraMPc/jZOnQ/N0JrBNZExDCnFeaTlDbBSZxqpXJVxzerUipKn8/5+Ao4mqrT88kiCqmZJGRBqPJj5Xh5NIDfKumvtwk6tRi4cA+CspOoe+WvXMGC1+YVtR0R140bCEGoii1qNJq+Xb251lp1GeU9aXo7Pdw7SlszLTqL/8bLH6yo/ED2HtKWoLexhrutLg9NRk+Sp6AP3aEK2vmN4+ez7CWtNWRU9fhvoq0IWaS9/paSOSLOQ+Y/SAB0Kvle3YWnFh1iMo6ivsSuss6E7vsXKXbSjC25R1bHRa2xyg0ToVbZuiIIx+M3tL2kfnbdZSKbw99ohlyXIOd1aE+adPp6M2w1dmv3/3Ch4cuBtvG5hvBXNIYXIQB6bXJytOPymNHklQGZnHWDEM+4Trx//rHCg2SKfVVtjqrvbeUB2fqkK/z9w/f5O5c0agSXrQSwJ/ky8jQDIUV8XhBwLPuCiQJm2r6AKp5G5vzoTBTryWKGdQiirOpSleW7ow0r1NKl7UcfyxAu/8/28w8/YQuODPfRvM+lBJcjxi72KEWkzIxPs2jnt0Bvt4bf/ygOxlsjpUi2KKHiYGiNbCLKZs4IYQKkGugt0PYlkO5MF//R3r3+6qK+ncN14U8E4vH+R3z1Irwbh/toFDVN44cb6pzUXhOBzDm11Bf8+UgCxuUEGOdtnhiq63Fwu1uhJIavRAVmsYLaRpqNJgGarV2gBovSmbmxt0sLCiFCImnQAIrS4gafYaslZXaCFloEq3Z6jWGizUO4nqPRuMhli0akGEQhxH01iM6Rqx9bQozHcB7ygRK80PyD6wbNGPhweG8vFN0MCaYoGd4EcoJZhYuoo3wGWgKDo2LF2CGB0QKDVmBgdJ1ZMGYrqKiuywgAgKxGFRaZgoRqchXneqqPB+F8BzKCKshrYqow+w2MT+sWEDhjqgmxKtU9utDLYl8EZQFMGTCItOhW1AE1CsiA4zqkdJQAw1QBgQMswYRJ1IV8nA8jL1/fZAPfOoHDkMy3Ao3TLzkiCmRA0hAA==":
 /*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAARIAAsAAAAACEQAAAP7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDBgqELINlATYCJAMMCwgABCAFhG0HNRsqBxEVnAnJvoScbC4Rd3BOtcW542W9hTVrUov1/2X4oxQkQAQkAAAAAEA8/Df27b6ZWdUmZs1PF00LdK8QypIgFEL25qV7MmnQ/tFa2+MOEV+SuKf39D57ZnsvDe1kQiHSCZ1K+4+4DOphOli4SGcdfuGCdXLfNbnFR0ggzDizXLLcreCttiB4SijRR4wTCZInbn47iDCptQYl92UkJ/HB5fRX4vOAcpl7YIBxQIGNMTmhtEAC1Jgbxi5oiecJ1OvVh9nVMbICBQpzWiCu+vu6g4KMRmnID7VCdcXaIu4DW226y13AveDz8QMsRgFJVWbO3SPaXmDphvraMPc/jZOnQ/N0JrBNZExDCnFeaTlDbBSZxqpXJVxzerUipKn8/5+Ao4mqrT88kiCqmZJGRBqPJj5Xh5NIDfKumvtwk6tRi4cA+CspOoe+WvXMGC1+YVtR0R140bCEGoii1qNJq+Xb251lp1GeU9aXo7Pdw7SlszLTqL/8bLH6yo/ED2HtKWoLexhrutLg9NRk+Sp6AP3aEK2vmN4+ez7CWtNWRU9fhvoq0IWaS9/paSOSLOQ+Y/SAB0Kvle3YWnFh1iMo6ivsSuss6E7vsXKXbSjC25R1bHRa2xyg0ToVbZuiIIx+M3tL2kfnbdZSKbw99ohlyXIOd1aE+adPp6M2w1dmv3/3Ch4cuBtvG5hvBXNIYXIQB6bXJytOPymNHklQGZnHWDEM+4Trx//rHCg2SKfVVtjqrvbeUB2fqkK/z9w/f5O5c0agSXrQSwJ/ky8jQDIUV8XhBwLPuCiQJm2r6AKp5G5vzoTBTryWKGdQiirOpSleW7ow0r1NKl7UcfyxAu/8/28w8/YQuODPfRvM+lBJcjxi72KEWkzIxPs2jnt0Bvt4bf/ygOxlsjpUi2KKHiYGiNbCLKZs4IYQKkGugt0PYlkO5MF//R3r3+6qK+ncN14U8E4vH+R3z1Irwbh/toFDVN44cb6pzUXhOBzDm11Bf8+UgCxuUEGOdtnhiq63Fwu1uhJIavRAVmsYLaRpqNJgGarV2gBovSmbmxt0sLCiFCImnQAIrS4gafYaslZXaCFloEq3Z6jWGizUO4nqPRuMhli0akGEQhxH01iM6Rqx9bQozHcB7ygRK80PyD6wbNGPhweG8vFN0MCaYoGd4EcoJZhYuoo3wGWgKDo2LF2CGB0QKDVmBgdJ1ZMGYrqKiuywgAgKxGFRaZgoRqchXneqqPB+F8BzKCKshrYqow+w2MT+sWEDhjqgmxKtU9utDLYl8EZQFMGTCItOhW1AE1CsiA4zqkdJQAw1QBgQMswYRJ1IV8nA8jL1/fZAPfOoHDkMy3Ao3TLzkiCmRA0hAA== ***!
@@ -223,7 +223,7 @@ eval("module.exports = \"data:application/x-font-woff2;charset=utf-8;base64,d09G
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-eval("module.exports = __webpack_require__.p + \"9471c46d44d2f732eeda.eot?t=1609808378351\";\n\n//# sourceURL=webpack://webpack/./src/assets/fonts/iconfont.eot?");
+eval("module.exports = __webpack_require__.p + \"3b12a4b4f12fad08aaa9.eot?t=1609808378351\";\n\n//# sourceURL=webpack://webpack/./src/assets/fonts/iconfont.eot?");
 
 /***/ }),
 
@@ -234,7 +234,7 @@ eval("module.exports = __webpack_require__.p + \"9471c46d44d2f732eeda.eot?t=1609
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-eval("module.exports = __webpack_require__.p + \"493628d6bbd99628a491.svg?t=1609808378351\";\n\n//# sourceURL=webpack://webpack/./src/assets/fonts/iconfont.svg?");
+eval("module.exports = __webpack_require__.p + \"ce8da84f2d2ecc147995.svg?t=1609808378351\";\n\n//# sourceURL=webpack://webpack/./src/assets/fonts/iconfont.svg?");
 
 /***/ }),
 
@@ -245,7 +245,7 @@ eval("module.exports = __webpack_require__.p + \"493628d6bbd99628a491.svg?t=1609
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-eval("module.exports = __webpack_require__.p + \"c4226d10da99c92a6e78.ttf?t=1609808378351\";\n\n//# sourceURL=webpack://webpack/./src/assets/fonts/iconfont.ttf?");
+eval("module.exports = __webpack_require__.p + \"3c31610077b1f7ebed4f.ttf?t=1609808378351\";\n\n//# sourceURL=webpack://webpack/./src/assets/fonts/iconfont.ttf?");
 
 /***/ }),
 
@@ -256,7 +256,7 @@ eval("module.exports = __webpack_require__.p + \"c4226d10da99c92a6e78.ttf?t=1609
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-eval("module.exports = __webpack_require__.p + \"9cb43d59501697fe0937.woff?t=1609808378351\";\n\n//# sourceURL=webpack://webpack/./src/assets/fonts/iconfont.woff?");
+eval("module.exports = __webpack_require__.p + \"e7c0e6e3259034f5530f.woff?t=1609808378351\";\n\n//# sourceURL=webpack://webpack/./src/assets/fonts/iconfont.woff?");
 
 /***/ }),
 
